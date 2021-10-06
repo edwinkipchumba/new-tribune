@@ -1,0 +1,4 @@
+virtual/
+.env/
+.pys/
+db.sqlite3
