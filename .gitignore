@@ -1,4 +1,4 @@
-virtual/
-.env/
-.pys/
+virtual
+.env
+.pys
 db.sqlite3
