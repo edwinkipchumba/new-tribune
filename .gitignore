@@ -1,4 +1,4 @@
 virtual/
 *.pys
-.settings.py
+settings.py
 db.sqlite3
