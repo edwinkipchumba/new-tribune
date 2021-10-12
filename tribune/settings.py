@@ -10,6 +10,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 import os
 from pathlib import Path
 import django_heroku
+from decouple import Config
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -134,6 +135,21 @@ DATABASES = {
     'PASSWORD':'kmox002',
     }
 }
+
+# Email configurations remember to install python-decouple
+# EMAIL_USE_TLS = Config('EMAIL_USE_TLS')
+# EMAIL_HOST = Config('EMAIL_HOST')
+# EMAIL_PORT = Config('EMAIL_PORT')
+# EMAIL_HOST_USER = Config('EMAIL_HOST_USER')
+# EMAIL_HOST_PASSWORD = Config('EMAIL_HOST_PASSWORD')
+
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'edwin.kolem@student.moringaschool.com'
+EMAIL_HOST_PASSWORD = '@kipchumba'
+
+
 TIME_ZONE = 'Africa/Nairobi'
 
 MEDIA_URL = '/media/'

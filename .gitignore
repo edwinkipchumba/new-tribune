@@ -1,2 +1,4 @@
 virtual/
 *.pys
+.settings.py
+db.sqlite3
