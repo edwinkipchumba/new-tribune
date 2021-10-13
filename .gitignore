@@ -1,4 +1,3 @@
 virtual/
 *.pys
-
 db.sqlite3

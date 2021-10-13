@@ -137,13 +137,6 @@ DATABASES = {
     }
 }
 
-# Email configurations remember to install python-decouple
-# EMAIL_USE_TLS = Config('EMAIL_USE_TLS')
-# EMAIL_HOST = Config('EMAIL_HOST')
-# EMAIL_PORT = Config('EMAIL_PORT')
-# EMAIL_HOST_USER = Config('EMAIL_HOST_USER')
-# EMAIL_HOST_PASSWORD = Config('EMAIL_HOST_PASSWORD')
-
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
